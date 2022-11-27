@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cycles-of-the-moon",
+  "version": "${version}",
+  "name": "Cycles Of The Moon",
+  "description": "",
+  "authors": [
+    "Waklakk"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cycles-of-the-moon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.waklakk.cyclesofthemoon.CyclesOfTheMoonClient"
+    ],
+    "main": [
+      "net.waklakk.cyclesofthemoon.CyclesOfTheMoon"
+    ]
+  },
+  "mixins": [
+    "cycles-of-the-moon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
